@@ -113,11 +113,7 @@ $(document).ready(function () {
   }
 
   function check(letter, player) {
-    if (numberOfturns === 9 && won === false) {
-      tie++;
-      $("#fun").text("Its a tie.");
-      $("#tie").text("Tie: " + tie);
-    } else if (
+    if (
       arrayRecord[0] === letter &&
       arrayRecord[1] === letter &&
       arrayRecord[2] === letter
@@ -190,6 +186,11 @@ $(document).ready(function () {
       $("#5").css("background", "blue");
       $("#8").css("background", "blue");
       won = true;
+    }
+    if (numberOfturns === 9 && won === false) {
+      tie++;
+      $("#fun").text("Its a tie.");
+      $("#tie").text("Tie: " + tie);
     }
 
     if (won === true) {
