@@ -10,14 +10,27 @@
         <section id = "grid">
             <header><div>Header</div></header>
             <main id = "mainsection">
+                <h2 id = "fun">Lets play some Tic Tac Toe !</h2>
+                
                 <form id = "form" >
-                    <h2 id = "fun">Lets play some Tic Tac Toe !</h2>
                     <div>
                     <label for="name1">Player 1 Name:</label>
-                    <input type="text" id="name" name="name" required>
+                    <input type="text" id="name1" name1="name" required>
+                    <select id="dropdown1">
+                        <option  value="X">X</option>
+                        <option value="O">O</option>
+                    </select>
                   
+                  
+                 
                     <label for="name2">Player 2 Name:</label>
-                    <input type="text" id="name" name="name" required>
+                    <input type="text" id="name2" name2="name" required>
+                        
+                    <select id="dropdown2">
+                        <option value="O">O</option>
+                        <option value="X">X</option>
+                    </select>
+                  
                   
                   </div>
                     <input id = "start" type="submit" value="Start">
@@ -42,12 +55,15 @@
 
 
             </div>
-        
+            <h3 id = "scoretracker1"></h3>
+            <h3 id = "scoretracker2"></h3>
+        <button id = "restart">Press for another go</button>
         
         
         </main>
         
             <footer><div id="footer"> footer</div></footer>
+            
         </section>
     </body>
     <script src="Jquery.js"></script>
