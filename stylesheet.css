@@ -128,7 +128,7 @@ footer{
 
 #start {
     margin: 50px;
-    background-color: green;
+    background-color:lightgreen;
     padding: 20px;
 }
 
@@ -141,7 +141,7 @@ footer{
 #restart {
     margin: 10px;
     padding: 10px;
-    background-color: green;
+    background-color:lightgreen;
     display: none;
 }
 
