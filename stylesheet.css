@@ -1,3 +1,7 @@
+
+
+@import url('https://fonts.cdnfonts.com/css/games');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +11,8 @@
 body {
     background-color: black;
     color: aliceblue;
+    font-family: 'Games', sans-serif;
+    height: 100;
 }
 
 #grid {
@@ -106,6 +112,7 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+ 
 
 }
 
@@ -127,7 +134,7 @@ footer{
 
 
 #fun {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 
@@ -147,4 +154,21 @@ footer{
 
 .dropdownss{
     margin: 20px;
+}
+
+#reload {
+    background-color: bisque;
+    display: none;
+    margin: 5px;
+    padding: 10px;
+}
+
+#tie {
+    display: none;
+    margin: 5px;
+    padding: 10px;
+}
+#scoretracker1{
+    margin: 5px;
+    padding: 10px;
 }
