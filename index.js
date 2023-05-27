@@ -209,13 +209,13 @@ $(document).ready(function () {
       tie++;
       $("#fun").text("Its a tie.");
       $("#tie").text("Tie: " + tie);
+      $("#restart").css("display", "block");
     }
 
     if (won === true) {
       $("#fun").text(player.name + " Won");
       $("#restart").css("display", "block");
       ++player.score;
-      ok = true;
 
       $("#scoretracker1").text(paragraph());
     }

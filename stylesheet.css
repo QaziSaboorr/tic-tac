@@ -93,6 +93,7 @@ footer{
     display: none;
     grid-template-rows: 1fr 1fr 1fr ;
     grid-template-columns: 1fr 1fr 1fr;
+    
 }
 
 .boxes {
@@ -104,6 +105,7 @@ footer{
     align-items: center;
     justify-content: center;
     font-size: x-large;
+ 
 }
 
 
